@@ -1,0 +1,22 @@
+---
+name: SuperLinter C++ 
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  super-lint:
+    name: Lint codebase
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Super-linter
+        uses: super-linter/super-linter@v6
+        env:
+          DEFAULT_BRANCH: main 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
