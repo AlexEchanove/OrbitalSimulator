@@ -1,2 +1,2 @@
-# Orbital Simulator 
+# Orbital Simulator
 Orbital sim
