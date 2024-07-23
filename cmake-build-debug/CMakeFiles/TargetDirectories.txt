@@ -1,0 +1,3 @@
+/Users/echanove.1/LocalDocs/Portfolio/OrbitalSimulator/cmake-build-debug/CMakeFiles/OrbitalSimulator.dir
+/Users/echanove.1/LocalDocs/Portfolio/OrbitalSimulator/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/echanove.1/LocalDocs/Portfolio/OrbitalSimulator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
