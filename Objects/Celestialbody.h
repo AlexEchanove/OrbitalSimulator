@@ -1,6 +1,5 @@
-//
-// Created by Echanove, Alex on 7/24/24.
-//
+// Copyright 2024 Alex
+
 #include "../main.h"
 
 #ifndef ORBITALSIMULATOR_CELESTIALBODY_H
@@ -19,9 +18,9 @@ public:
                 double vx, double vy, double vz, double ax, double ay,
                 double az);
 
-  void updatePosition(double t);
+  void updateAcceleration(Celestialbody cb1, Celestialbody cb2);
   void updateVelocity(double t);
-  void updateAcceleration(double t);
+  void updatePosition(double t);
 };
 
 #endif // ORBITALSIMULATOR_CELESTIALBODY_H

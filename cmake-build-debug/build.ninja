@@ -61,11 +61,17 @@ build CMakeFiles/OrbitalSimulator.dir/Objects/Celestialbody.cpp.o: CXX_COMPILER_
   OBJECT_DIR = CMakeFiles/OrbitalSimulator.dir
   OBJECT_FILE_DIR = CMakeFiles/OrbitalSimulator.dir/Objects
 
-build CMakeFiles/OrbitalSimulator.dir/CppUnitTests/TestCelstialBody.cpp.o: CXX_COMPILER__OrbitalSimulator_unscanned_Debug /Users/echanove.1/LocalDocs/Portfolio/OrbitalSimulator/CppUnitTests/TestCelstialBody.cpp || cmake_object_order_depends_target_OrbitalSimulator
-  DEP_FILE = CMakeFiles/OrbitalSimulator.dir/CppUnitTests/TestCelstialBody.cpp.o.d
+build CMakeFiles/OrbitalSimulator.dir/DataReport/DataPrint.cpp.o: CXX_COMPILER__OrbitalSimulator_unscanned_Debug /Users/echanove.1/LocalDocs/Portfolio/OrbitalSimulator/DataReport/DataPrint.cpp || cmake_object_order_depends_target_OrbitalSimulator
+  DEP_FILE = CMakeFiles/OrbitalSimulator.dir/DataReport/DataPrint.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/OrbitalSimulator.dir
-  OBJECT_FILE_DIR = CMakeFiles/OrbitalSimulator.dir/CppUnitTests
+  OBJECT_FILE_DIR = CMakeFiles/OrbitalSimulator.dir/DataReport
+
+build CMakeFiles/OrbitalSimulator.dir/Simulator/MainLoop.cpp.o: CXX_COMPILER__OrbitalSimulator_unscanned_Debug /Users/echanove.1/LocalDocs/Portfolio/OrbitalSimulator/Simulator/MainLoop.cpp || cmake_object_order_depends_target_OrbitalSimulator
+  DEP_FILE = CMakeFiles/OrbitalSimulator.dir/Simulator/MainLoop.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/OrbitalSimulator.dir
+  OBJECT_FILE_DIR = CMakeFiles/OrbitalSimulator.dir/Simulator
 
 
 # =============================================================================
@@ -75,7 +81,7 @@ build CMakeFiles/OrbitalSimulator.dir/CppUnitTests/TestCelstialBody.cpp.o: CXX_C
 #############################################
 # Link the executable OrbitalSimulator
 
-build OrbitalSimulator: CXX_EXECUTABLE_LINKER__OrbitalSimulator_Debug CMakeFiles/OrbitalSimulator.dir/main.cpp.o CMakeFiles/OrbitalSimulator.dir/Objects/Celestialbody.cpp.o CMakeFiles/OrbitalSimulator.dir/CppUnitTests/TestCelstialBody.cpp.o
+build OrbitalSimulator: CXX_EXECUTABLE_LINKER__OrbitalSimulator_Debug CMakeFiles/OrbitalSimulator.dir/main.cpp.o CMakeFiles/OrbitalSimulator.dir/Objects/Celestialbody.cpp.o CMakeFiles/OrbitalSimulator.dir/DataReport/DataPrint.cpp.o CMakeFiles/OrbitalSimulator.dir/Simulator/MainLoop.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
   OBJECT_DIR = CMakeFiles/OrbitalSimulator.dir
   POST_BUILD = :

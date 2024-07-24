@@ -1,5 +1,13 @@
 # ninja log v5
-5	321	1721838509649078838	CMakeFiles/OrbitalSimulator.dir/Objects/Celestialbody.cpp.o	355854f4fa679a2f
-373	422	1721838893417912473	OrbitalSimulator	faf68007b00ef22b
-5	372	1721838893365813291	CMakeFiles/OrbitalSimulator.dir/main.cpp.o	f77c0a21dc2066f
-2	94	1721840166610450619	build.ninja	a632c451ea46b380
+3	98	1721851052082588697	build.ninja	a632c451ea46b380
+5	496	1721850980774779246	CMakeFiles/OrbitalSimulator.dir/main.cpp.o	f77c0a21dc2066f
+498	603	1721850980884694754	OrbitalSimulator	fe8e87ef67eb9389
+6	497	1721850980776093454	CMakeFiles/OrbitalSimulator.dir/Objects/Celestialbody.cpp.o	355854f4fa679a2f
+7	498	1721850980776879079	CMakeFiles/OrbitalSimulator.dir/DataReport/DataPrint.cpp.o	5d0c2972aac77865
+9	532	1721851365044500104	CMakeFiles/OrbitalSimulator.dir/Simulator/MainLoop.cpp.o	bfe92601a0aa4782
+8	535	1721851365046709605	CMakeFiles/OrbitalSimulator.dir/main.cpp.o	f77c0a21dc2066f
+8	536	1721851365046968563	CMakeFiles/OrbitalSimulator.dir/Objects/Celestialbody.cpp.o	355854f4fa679a2f
+9	536	1721851365047915813	CMakeFiles/OrbitalSimulator.dir/DataReport/DataPrint.cpp.o	5d0c2972aac77865
+536	640	1721851365153638696	OrbitalSimulator	59d15e6b990ef3d5
+8	470	1721851492693258496	CMakeFiles/OrbitalSimulator.dir/main.cpp.o	f77c0a21dc2066f
+470	522	1721851492748724667	OrbitalSimulator	59d15e6b990ef3d5

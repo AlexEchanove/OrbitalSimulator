@@ -7,6 +7,8 @@ add_executable(OrbitalSimulator main.cpp
         Objects/Celestialbody.cpp
         Objects/Celestialbody.h
         main.h
-        CppUnitTests/TestCelstialBody.cpp
-        CppUnitTests/TestCelstialBody.h
+        DataReport/DataPrint.cpp
+        DataReport/DataPrint.h
+        Simulator/MainLoop.cpp
+        Simulator/MainLoop.h
 )

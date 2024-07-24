@@ -1,9 +1,9 @@
-//
-// Created by Echanove, Alex on 7/24/24.
-//
+// Copyright 2024 Alex
 
+#include <cmath>
 #include <iostream>
 #include <string>
+#include <vector>
 
 #ifndef ORBITALSIMULATOR_MAIN_H
 #define ORBITALSIMULATOR_MAIN_H
