@@ -1,7 +1,5 @@
 # ninja log v5
-1	358	1721752676164088370	CMakeFiles/OrbitalSimulator.dir/main.cpp.o	f77c0a21dc2066f
-360	409	1721752676217559287	OrbitalSimulator	f96643b2b04d624e
-17	508	1721762441667154566	CMakeFiles/OrbitalSimulator.dir/main.cpp.o	f77c0a21dc2066f
-508	617	1721762441777618829	OrbitalSimulator	f96643b2b04d624e
-6	710	1721794665875693191	CMakeFiles/OrbitalSimulator.dir/main.cpp.o	f77c0a21dc2066f
-710	1969	1721794667136409980	OrbitalSimulator	f96643b2b04d624e
+5	321	1721838509649078838	CMakeFiles/OrbitalSimulator.dir/Objects/Celestialbody.cpp.o	355854f4fa679a2f
+373	422	1721838893417912473	OrbitalSimulator	faf68007b00ef22b
+5	372	1721838893365813291	CMakeFiles/OrbitalSimulator.dir/main.cpp.o	f77c0a21dc2066f
+2	94	1721840166610450619	build.ninja	a632c451ea46b380
