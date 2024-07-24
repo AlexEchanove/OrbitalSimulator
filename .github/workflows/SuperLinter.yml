@@ -14,7 +14,8 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
-
+      - name: Clang Format
+        uses: clang-format *.cpp
       - name: Super-linter
         uses: super-linter/super-linter@v6
         env:

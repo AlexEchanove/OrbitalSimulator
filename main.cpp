@@ -1,7 +1,8 @@
 // Copyright 2024 Alex
 #include <iostream>
+using namespace std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+  cout << "Hello, World!" << endl;
+  return 0;
 }
